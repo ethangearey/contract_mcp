@@ -2,7 +2,7 @@
 import os
 from typing import Any
 import httpx
-from mcp.server.fastmcp import FastMCP
+from mcp.server.fastmcp import FastMCP # I think new MCP uses mcp.server.mcp
 from dotenv import load_dotenv
 
 # Initialize FastMCP server
